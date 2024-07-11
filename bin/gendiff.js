@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-const { program } = require('commander');
+// const { program } = require('commander');,
+import { program } from 'commander';
+
 
 program
   .name('diff-compare')
