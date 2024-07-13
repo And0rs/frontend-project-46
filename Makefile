@@ -4,5 +4,5 @@ publish:
 install:
 	npm ci
 
-make diff:
-	node bin/gendiff.js
+diff:
+	gendiff __fixtures__/file1.json __fixtures__/file2.json
