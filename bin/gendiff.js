@@ -5,7 +5,6 @@
 import { program } from 'commander';
 import gendiff from '../src/index.js';
 
-
 program
   .name('diff-compare')
   .description('Compares two configuration files and shows a difference.')

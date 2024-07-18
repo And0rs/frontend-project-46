@@ -1,0 +1,14 @@
+name: main
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/checkout/setup-node@v3
+      - run: npm install
+
+      - name: linter
+        run: make lint
+      - name: tests
+        run: make test
