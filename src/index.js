@@ -1,13 +1,9 @@
 import path from 'node:path';
 import process from 'node:process';
-import fs from 'node:fs';
 import _ from 'lodash';
+import parse from './parsers.js';
 
 const getPath = (filePath) => path.resolve(process.cwd(), filePath);
-
-const getFile = (filePath) => fs.readFileSync(filePath);
-
-const parse = (filePath) => JSON.parse(getFile(filePath));
 
 const getDiff = (obj1, obj2) => {
   // Получаем массив уникальных отсортированных ключей
@@ -44,7 +40,7 @@ const gendiff = (filePath1, filePath2) => {
   // console.log(obj2);
 
   const result = getDiff(obj1, obj2);
-  // console.log(result);
+  console.log(result);
   return result;
 };
 

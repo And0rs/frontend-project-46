@@ -6,5 +6,6 @@
 
 <h2 style='text-align: center'> Project preview </h2>
 <ul>
-<li><a href="https://asciinema.org/a/645795">Gendiff</a></li>
+<li><a href="https://asciinema.org/a/ZPArcbAxpTdOnBub5crHLi4yA">Gendiff preview 1</a></li>
+<li><a href="https://asciinema.org/a/Og5CxMIpLflqY2EGMrg1gYrBO">Gendiff preview 2</a></li>
 </ul>

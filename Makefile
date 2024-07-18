@@ -7,6 +7,9 @@ install:
 diff:
 	gendiff __fixtures__/file1.json __fixtures__/file2.json
 
+diff2:
+	gendiff __fixtures__/file2.json __fixtures__/file1.yml
+
 lint:
 	npx eslint .
 
