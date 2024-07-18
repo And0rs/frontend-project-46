@@ -14,7 +14,7 @@ fix:
 	npx eslint . --fix
 
 test:
-	NODE_OPTIONS=--experimental-vm-modules npx jest
+	npx jest
 
 coverage:
-	NODE_OPTIONS=--experimental-vm-modules npx jest --coverage
+	npx jest --coverage

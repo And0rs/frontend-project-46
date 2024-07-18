@@ -4,7 +4,7 @@
   "description": "small project to compare a differnce between two yaml or Json files",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",

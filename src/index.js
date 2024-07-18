@@ -44,7 +44,7 @@ const gendiff = (filePath1, filePath2) => {
   // console.log(obj2);
 
   const result = getDiff(obj1, obj2);
-  console.log(result);
+  // console.log(result);
   return result;
 };
 
