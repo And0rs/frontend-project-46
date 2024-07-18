@@ -18,4 +18,6 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODE_CLIMAT }}
         with:
-          coverageCommand: 	npm test -- --coverage --coverageProvider=v8
+          coverageCommand: 	make test-coverage
+          debug: true
+          

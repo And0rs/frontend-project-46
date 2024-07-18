@@ -16,6 +16,5 @@ fix:
 test:
 	npx jest
 
-coverage:
+test-coverage:
 	npx jest --coverage
-	debug: true
