@@ -33,7 +33,7 @@ test('flat diff with different formats', () => {
   expect(gendiff(getFixturePath('file1.json'), getFixturePath('file2.yml')))
     .toEqual(expectedObj1);
   expect(gendiff(getFixturePath('file1.yml'), getFixturePath('file2.json')))
-    .toEqual(expectedObj)1;
+    .toEqual(expectedObj1);
 });
 
 test('flat diff with different formats, switch files', () => {
