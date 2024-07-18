@@ -18,4 +18,4 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODE_CLIMAT }}
         with:
-          coverageCommand: 	NODE_OPTIONS=--experimental-vm-modules npx jest
+          coverageCommand: 	npm test -- --coverage --coverageProvider=v8
